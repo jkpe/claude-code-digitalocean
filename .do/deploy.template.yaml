@@ -44,7 +44,7 @@ spec:
       value: 
     - key: DATABASE_URL
       scope: RUN_TIME
-      value: ${db.DATABASE_URL}
+      value: ${litellm-db.DATABASE_URL}
     - key: STORE_MODEL_IN_DB
       scope: RUN_TIME
       value: "True"
